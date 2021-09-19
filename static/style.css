@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    padding: 20px;
+    background-color: palegoldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+form input{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 0;
+}
+
+form button{
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: palegoldenrod;
+    margin: 20px;
+}
+
+.result{
+    text-align: center;
+}
